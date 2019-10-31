@@ -1,3 +1,24 @@
+# Development
+1. Setting up
+	- npm install //for dependencies
+	- npm run start //run webpackserver
+2. File Descriptions
+	- App.js
+		- used class component so it can use lifecycle hooks in the future
+		- lifted up the state so future components can access the state
+		- installed uuid for random generation of key
+		- changes in the state are made within its component
+		- where Header, AddTodo and Todos are called
+	- Todos.js
+		- it's the collection of TodoItem
+		- passed props for component drilling
+	- TodoItem.js
+		- single todo is rendered here
+	- AddTodo.js
+		- where you can add new Todo and pass it as a props
+	- Header.js
+		- simple functional based component contaning plain objects/elements
+      
 # Code Challenge
 
 The goal of this challenge is to get to know your familiarity building ReactJS Application.
